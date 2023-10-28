@@ -47,6 +47,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		363E0CE62AECD1EB00CAB95C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				36DFA1522AD06D46001E11EC /* AppDelegate.swift */,
+				36DFA1542AD06D46001E11EC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		363E0CE72AECD1FA00CAB95C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				363E0CE92AECD21600CAB95C /* Week2 */,
+				363E0CE82AECD21000CAB95C /* Week1 */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		363E0CE82AECD21000CAB95C /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				36DFA1562AD06D46001E11EC /* ViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		363E0CE92AECD21600CAB95C /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */,
+				36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */,
+				36C66A362ADA810F00DBBE45 /* FourthViewController.swift */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		363E0CEA2AECD23A00CAB95C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				36DFA15B2AD06D47001E11EC /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		363E0CEB2AECD25200CAB95C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				363E0CED2AECD28400CAB95C /* Storyboards */,
+				363E0CEC2AECD27900CAB95C /* Extension */,
+				363E0CE72AECD1FA00CAB95C /* ViewControllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		363E0CEC2AECD27900CAB95C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36C66A322ADA747B00DBBE45 /* UIStackView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		363E0CED2AECD28400CAB95C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				36DFA15D2AD06D47001E11EC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		36DFA1462AD06D46001E11EC = {
 			isa = PBXGroup;
 			children = (
@@ -66,16 +136,10 @@
 		36DFA1512AD06D46001E11EC /* DO_SOPT_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				36DFA1522AD06D46001E11EC /* AppDelegate.swift */,
-				36C66A322ADA747B00DBBE45 /* UIStackView+.swift */,
-				36DFA1542AD06D46001E11EC /* SceneDelegate.swift */,
-				36DFA1562AD06D46001E11EC /* ViewController.swift */,
-				36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */,
-				36DFA15B2AD06D47001E11EC /* Assets.xcassets */,
-				36DFA15D2AD06D47001E11EC /* LaunchScreen.storyboard */,
+				363E0CE62AECD1EB00CAB95C /* Application */,
+				363E0CEA2AECD23A00CAB95C /* Resource */,
+				363E0CEB2AECD25200CAB95C /* Source */,
 				36DFA1602AD06D47001E11EC /* Info.plist */,
-				36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */,
-				36C66A362ADA810F00DBBE45 /* FourthViewController.swift */,
 			);
 			path = DO_SOPT_iOS;
 			sourceTree = "<group>";
