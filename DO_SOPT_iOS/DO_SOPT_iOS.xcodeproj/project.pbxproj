@@ -21,6 +21,8 @@
 		366014AD2AFF58CE00D3D4F7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014AC2AFF58CE00D3D4F7 /* InfoViewController.swift */; };
 		366014AF2AFF596D00D3D4F7 /* GetInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014AE2AFF596D00D3D4F7 /* GetInfoService.swift */; };
 		366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */; };
+		366014B52AFF641800D3D4F7 /* ExistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B42AFF641800D3D4F7 /* ExistModel.swift */; };
+		366014B72AFF648300D3D4F7 /* GetUserExistedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */; };
 		36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */; };
 		36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A322ADA747B00DBBE45 /* UIStackView+.swift */; };
 		36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */; };
@@ -45,6 +47,8 @@
 		366014AC2AFF58CE00D3D4F7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		366014AE2AFF596D00D3D4F7 /* GetInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoService.swift; sourceTree = "<group>"; };
 		366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoDataModel.swift; sourceTree = "<group>"; };
+		366014B42AFF641800D3D4F7 /* ExistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistModel.swift; sourceTree = "<group>"; };
+		366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserExistedService.swift; sourceTree = "<group>"; };
 		36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		36C66A322ADA747B00DBBE45 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 				366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */,
 				36DFA1552AD06D46001E11EC /* SceneDelegate.swift in Sources */,
 				363E0CF02AECDBB700CAB95C /* CarrotViewController.swift in Sources */,
+				366014B52AFF641800D3D4F7 /* ExistModel.swift in Sources */,
+				366014A42AFF57C800D3D4F7 /* SignUpViewController.swift in Sources */,
 				363E0CF42AECF03E00CAB95C /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
