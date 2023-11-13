@@ -14,6 +14,11 @@
 		363E0CF42AECF03E00CAB95C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E0CF32AECF03D00CAB95C /* PhotosViewController.swift */; };
 		363E0CF62AECF12A00CAB95C /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E0CF52AECF12A00CAB95C /* PhotosCollectionViewCell.swift */; };
 		363E0CF82AECF42300CAB95C /* ImageCollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E0CF72AECF42300CAB95C /* ImageCollectionData.swift */; };
+		366014A72AFF582500D3D4F7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014A62AFF582500D3D4F7 /* NetworkError.swift */; };
+		366014A92AFF586D00D3D4F7 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014A82AFF586D00D3D4F7 /* RegisterService.swift */; };
+		366014AB2AFF588A00D3D4F7 /* RegisterRequstBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014AA2AFF588A00D3D4F7 /* RegisterRequstBody.swift */; };
+		366014AF2AFF596D00D3D4F7 /* GetInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014AE2AFF596D00D3D4F7 /* GetInfoService.swift */; };
+		366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */; };
 		36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */; };
 		36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A322ADA747B00DBBE45 /* UIStackView+.swift */; };
 		36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */; };
@@ -31,6 +36,11 @@
 		363E0CF32AECF03D00CAB95C /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		363E0CF52AECF12A00CAB95C /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		363E0CF72AECF42300CAB95C /* ImageCollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionData.swift; sourceTree = "<group>"; };
+		366014A62AFF582500D3D4F7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		366014A82AFF586D00D3D4F7 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		366014AA2AFF588A00D3D4F7 /* RegisterRequstBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequstBody.swift; sourceTree = "<group>"; };
+		366014AE2AFF596D00D3D4F7 /* GetInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoService.swift; sourceTree = "<group>"; };
+		366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoDataModel.swift; sourceTree = "<group>"; };
 		36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		36C66A322ADA747B00DBBE45 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +79,7 @@
 		363E0CE72AECD1FA00CAB95C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				366014A22AFF57B800D3D4F7 /* Week4 */,
 				363E0CEE2AECDB9F00CAB95C /* Week3 */,
 				363E0CE92AECD21600CAB95C /* Week2 */,
 				363E0CE82AECD21000CAB95C /* Week1 */,
@@ -105,6 +116,7 @@
 		363E0CEB2AECD25200CAB95C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				366014A52AFF580B00D3D4F7 /* Networks */,
 				363E0CED2AECD28400CAB95C /* Storyboards */,
 				363E0CEC2AECD27900CAB95C /* Extension */,
 				363E0CE72AECD1FA00CAB95C /* ViewControllers */,
@@ -138,6 +150,20 @@
 				363E0CF72AECF42300CAB95C /* ImageCollectionData.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		366014A52AFF580B00D3D4F7 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				366014A62AFF582500D3D4F7 /* NetworkError.swift */,
+				366014A82AFF586D00D3D4F7 /* RegisterService.swift */,
+				366014AA2AFF588A00D3D4F7 /* RegisterRequstBody.swift */,
+				366014AE2AFF596D00D3D4F7 /* GetInfoService.swift */,
+				366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */,
+				366014B42AFF641800D3D4F7 /* ExistModel.swift */,
+				366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */,
+			);
+			path = Networks;
 			sourceTree = "<group>";
 		};
 		36DFA1462AD06D46001E11EC = {
@@ -246,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */,
+				366014A72AFF582500D3D4F7 /* NetworkError.swift in Sources */,
 				363E0CF82AECF42300CAB95C /* ImageCollectionData.swift in Sources */,
 				36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */,
 				36DFA1572AD06D46001E11EC /* ViewController.swift in Sources */,
@@ -253,7 +280,11 @@
 				36DFA1532AD06D46001E11EC /* AppDelegate.swift in Sources */,
 				363E0CF62AECF12A00CAB95C /* PhotosCollectionViewCell.swift in Sources */,
 				363E0CF22AECDD1D00CAB95C /* ItemListTableViewCell.swift in Sources */,
+				366014A92AFF586D00D3D4F7 /* RegisterService.swift in Sources */,
+				366014AB2AFF588A00D3D4F7 /* RegisterRequstBody.swift in Sources */,
+				366014AF2AFF596D00D3D4F7 /* GetInfoService.swift in Sources */,
 				36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */,
+				366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */,
 				36DFA1552AD06D46001E11EC /* SceneDelegate.swift in Sources */,
 				363E0CF02AECDBB700CAB95C /* CarrotViewController.swift in Sources */,
 				363E0CF42AECF03E00CAB95C /* PhotosViewController.swift in Sources */,
