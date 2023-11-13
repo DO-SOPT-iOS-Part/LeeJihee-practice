@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		363E0CE22AECD03C00CAB95C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 363E0CE12AECD03C00CAB95C /* SnapKit */; };
 		363E0CE52AECD05300CAB95C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 363E0CE42AECD05300CAB95C /* Then */; };
+		363E0CF02AECDBB700CAB95C /* CarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E0CEF2AECDBB700CAB95C /* CarrotViewController.swift */; };
+		363E0CF22AECDD1D00CAB95C /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E0CF12AECDD1D00CAB95C /* ItemListTableViewCell.swift */; };
 		36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */; };
 		36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A322ADA747B00DBBE45 /* UIStackView+.swift */; };
 		36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363E0CEF2AECDBB700CAB95C /* CarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotViewController.swift; sourceTree = "<group>"; };
+		363E0CF12AECDD1D00CAB95C /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
 		36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		36C66A322ADA747B00DBBE45 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 		363E0CE72AECD1FA00CAB95C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				363E0CEE2AECDB9F00CAB95C /* Week3 */,
 				363E0CE92AECD21600CAB95C /* Week2 */,
 				363E0CE82AECD21000CAB95C /* Week1 */,
 			);
@@ -115,6 +120,15 @@
 				36DFA15D2AD06D47001E11EC /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		363E0CEE2AECDB9F00CAB95C /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				363E0CEF2AECDBB700CAB95C /* CarrotViewController.swift */,
+				363E0CF12AECDD1D00CAB95C /* ItemListTableViewCell.swift */,
+			);
+			path = Week3;
 			sourceTree = "<group>";
 		};
 		36DFA1462AD06D46001E11EC = {
@@ -227,8 +241,10 @@
 				36DFA1572AD06D46001E11EC /* ViewController.swift in Sources */,
 				36C66A372ADA810F00DBBE45 /* FourthViewController.swift in Sources */,
 				36DFA1532AD06D46001E11EC /* AppDelegate.swift in Sources */,
+				363E0CF22AECDD1D00CAB95C /* ItemListTableViewCell.swift in Sources */,
 				36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */,
 				36DFA1552AD06D46001E11EC /* SceneDelegate.swift in Sources */,
+				363E0CF02AECDBB700CAB95C /* CarrotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
