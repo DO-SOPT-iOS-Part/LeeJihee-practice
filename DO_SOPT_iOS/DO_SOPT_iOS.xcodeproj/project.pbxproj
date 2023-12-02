@@ -23,6 +23,9 @@
 		366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */; };
 		366014B52AFF641800D3D4F7 /* ExistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B42AFF641800D3D4F7 /* ExistModel.swift */; };
 		366014B72AFF648300D3D4F7 /* GetUserExistedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */; };
+		366776E42B1AFB32006E58CB /* MVCPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366776E32B1AFB32006E58CB /* MVCPracticeVC.swift */; };
+		366776E62B1AFBAB006E58CB /* SoptMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366776E52B1AFBAB006E58CB /* SoptMember.swift */; };
+		366776E82B1AFBC5006E58CB /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366776E72B1AFBC5006E58CB /* CustomTVC.swift */; };
 		36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */; };
 		36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A322ADA747B00DBBE45 /* UIStackView+.swift */; };
 		36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */; };
@@ -49,6 +52,9 @@
 		366014B02AFF598100D3D4F7 /* UserInfoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoDataModel.swift; sourceTree = "<group>"; };
 		366014B42AFF641800D3D4F7 /* ExistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistModel.swift; sourceTree = "<group>"; };
 		366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserExistedService.swift; sourceTree = "<group>"; };
+		366776E32B1AFB32006E58CB /* MVCPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCPracticeVC.swift; sourceTree = "<group>"; };
+		366776E52B1AFBAB006E58CB /* SoptMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptMember.swift; sourceTree = "<group>"; };
+		366776E72B1AFBC5006E58CB /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
 		36C66A302ADA69FE00DBBE45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		36C66A322ADA747B00DBBE45 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		36C66A342ADA74B700DBBE45 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 		363E0CE72AECD1FA00CAB95C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				366776E22B1AFB12006E58CB /* Week7 */,
 				366014A22AFF57B800D3D4F7 /* Week4 */,
 				363E0CEE2AECDB9F00CAB95C /* Week3 */,
 				363E0CE92AECD21600CAB95C /* Week2 */,
@@ -181,6 +188,25 @@
 				366014B62AFF648300D3D4F7 /* GetUserExistedService.swift */,
 			);
 			path = Networks;
+			sourceTree = "<group>";
+		};
+		366776E22B1AFB12006E58CB /* Week7 */ = {
+			isa = PBXGroup;
+			children = (
+				366776F02B1B17A4006E58CB /* MVVM */,
+				366776EF2B1B179E006E58CB /* MVC */,
+			);
+			path = Week7;
+			sourceTree = "<group>";
+		};
+		366776EF2B1B179E006E58CB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				366776E32B1AFB32006E58CB /* MVCPracticeVC.swift */,
+				366776E52B1AFBAB006E58CB /* SoptMember.swift */,
+				366776E72B1AFBC5006E58CB /* CustomTVC.swift */,
+			);
+			path = MVC;
 			sourceTree = "<group>";
 		};
 		36DFA1462AD06D46001E11EC = {
@@ -288,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366776E42B1AFB32006E58CB /* MVCPracticeVC.swift in Sources */,
 				36C66A332ADA747B00DBBE45 /* UIStackView+.swift in Sources */,
+				366776E82B1AFBC5006E58CB /* CustomTVC.swift in Sources */,
 				366014A72AFF582500D3D4F7 /* NetworkError.swift in Sources */,
 				363E0CF82AECF42300CAB95C /* ImageCollectionData.swift in Sources */,
 				36C66A312ADA69FE00DBBE45 /* SecondViewController.swift in Sources */,
@@ -301,6 +329,7 @@
 				363E0CF22AECDD1D00CAB95C /* ItemListTableViewCell.swift in Sources */,
 				366014A92AFF586D00D3D4F7 /* RegisterService.swift in Sources */,
 				366014AB2AFF588A00D3D4F7 /* RegisterRequstBody.swift in Sources */,
+				366776E62B1AFBAB006E58CB /* SoptMember.swift in Sources */,
 				366014AF2AFF596D00D3D4F7 /* GetInfoService.swift in Sources */,
 				36C66A352ADA74B700DBBE45 /* ThirdViewController.swift in Sources */,
 				366014B12AFF598100D3D4F7 /* UserInfoDataModel.swift in Sources */,
